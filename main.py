@@ -17,8 +17,8 @@ logger = logging.getLogger(__name__)
 # Environment Variables with defaults
 API_ID = int(os.environ.get("API_ID", 29382018))
 API_HASH = os.environ.get("API_HASH", "4734a726c04620c61ec0a28a1ae0d57f")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8027197031:AAHhjRgVcA5QlfcryW6EAm2PrIUHS3kMXoU")
-CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1002616383974")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7317446159:AAFLP_OEPQhHSMX3NQ_99eLqJDMLEXYsLUQ")
+CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1003858672695")
 PORT = int(os.environ.get("PORT", 3000))
 
 # Optimized Bot Client
