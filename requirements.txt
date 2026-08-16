@@ -1,6 +1,19 @@
+# Core Dependencies
 pyrogram==2.0.106
+tgcrypto==1.2.5  # Critical for speed!
 aiohttp==3.9.1
 flask==3.0.0
-gunicorn==21.2.0
+
+# Async Support
+asyncio==3.4.3
+aiofiles==23.2.1
+
+# HTTP & Networking
 requests==2.31.0
+
+# Utilities
 python-dotenv==1.0.0
+colorama==0.4.6
+
+# Monitoring
+psutil==5.9.6
